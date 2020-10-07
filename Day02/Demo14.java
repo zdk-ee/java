@@ -4,7 +4,7 @@ public class Demo14{
         //输入存钱数
         System.out.print("Enter the monthly saving amount: ");
         Scanner input = new Scanner(System.in);
-        double save_money = input.nextFloat();
+        double save_money = input.nextDouble();
         //设置每月之后的总钱数
         double money_all = 0;
         //循环得到六个月之后的钱数
