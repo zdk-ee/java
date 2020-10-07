@@ -23,7 +23,7 @@ public class Demo08{
 
         //总5分数
         int nickel = pennyAllSum/5;
-        //总1分数
+        //剩余1分数
         pennyAllSum = pennyAllSum%5;
 
         System.out.println(dollarSum+"个1美元");
